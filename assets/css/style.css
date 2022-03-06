@@ -1,0 +1,19 @@
+/* FONTS & COLORS */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rufina:wght@700&display=swap');
+
+:root {
+    --dark-green: #4a4c02;
+    --mid-green: #78820c;
+    --yellow: #d9ac0c;
+    --v-light-grey: #f8f9fa;
+    --light-grey: #e9e6e3;
+    --dark-grey: #777470;
+    --heading-font: 'Rufina', serif;
+    --main-font: 'PT Serif', serif;
+}
+
+/* IMAGES */
+#logo {
+    height: 40px;
+}
