@@ -1,6 +1,6 @@
 /* FONTS & COLORS */
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&family=Source+Sans+Pro&display=swap');
 
 :root {
     --dark-green: #4a4c02;
@@ -10,7 +10,27 @@
     --light-grey: #e9e6e3;
     --dark-grey: #777470;
     --heading-font: 'Rufina', serif;
-    --main-font: 'PT Serif', serif;
+    --main-font: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+/* NAVIGATION */
+#cc .nav-link.active,
+#cc .nav-link:hover {
+    color: var(--dark-green);
+}
+
+#cc .navbar-brand {
+    font-family: var(--heading-font);
+    color: var(--mid-green);
+    font-size: 19px;
 }
 
 /* IMAGES */
