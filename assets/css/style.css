@@ -4,6 +4,7 @@
 
 :root {
     --dark-green: #4a4c02;
+    --dark-green-overlay: rgba(74, 76, 2, 0.4);
     --mid-green: #78820c;
     --yellow: #d9ac0c;
     --v-light-grey: #f8f9fa;
@@ -21,6 +22,18 @@ h1, h2, h3, h4 {
     font-family: var(--heading-font);
 }
 
+#hero-img-home {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.tagline {
+    font-size: 21px;
+}
+
 /* NAVIGATION */
 #cc .nav-link.active,
 #cc .nav-link:hover {
@@ -36,4 +49,28 @@ h1, h2, h3, h4 {
 /* IMAGES */
 #logo {
     height: 40px;
+}
+
+#hero-img-home {
+    background-image: url('../../assets/img/ferns1.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: 60% 70%;
+}
+
+.overlay-dark {
+    height: 100%;
+    background-color: var(--dark-green-overlay);
+}
+
+/* MEDIA QUERIES */
+
+/* small devices */
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 55px;
+    }
+    .tagline {
+        font-size: 24px;
+    }
 }
