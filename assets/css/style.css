@@ -41,6 +41,11 @@ h1 {
     font-size: 30px;
 }
 
+.quotemarks {
+    font-family: var(--heading-font);
+    color: var(--yellow);
+}
+
 /* NAVIGATION */
 #cc .nav-link.active,
 #cc .nav-link:hover {
@@ -73,7 +78,7 @@ h1 {
 /* RESULTS ICONS */
 
 #results-icons {
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .results-icon {
@@ -83,17 +88,70 @@ h1 {
     margin: 10px 0;
 }
 
+/* TESTIMONIALS SECTION HOME PG */
+
+#testimonials-section {
+    background-color: var(--mid-green);
+    padding: 40px 0;
+    color: white;
+    height: 480px;
+}
+
+.blockquote > p {
+    font-size: 1rem;
+}
+
+.carousel.slide {
+    height: 100%;
+}
+
 /* MEDIA QUERIES */
+
+/* extra small devices */
+@media screen and (min-width: 420px) {
+
+    /* #testimonials-section {
+        height: 300px;
+    } */
+    
+    .blockquote > p {
+        font-size: 1.1rem;
+    }
+}
 
 /* small devices */
 @media screen and (min-width: 576px) {
     h1 {
         font-size: 55px;
     }
+    
     .tagline {
         font-size: 24px;
     }
+
     .section-heading {
         font-size: 40px;
     }
+
+    #testimonials-section {
+        height: 300px;
+    }
+    
+    .blockquote > p {
+        font-size: 1rem;
+    }
 }
+
+/* medium devices */
+@media screen and (min-width: 768px) {
+
+    #testimonials-section {
+        height: 250px;
+    }
+}
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
