@@ -105,6 +105,36 @@ h1 {
     height: 100%;
 }
 
+.section-footer {
+    background-color: var(--mid-green);
+}
+
+/* BUTTONS */
+
+.btn-white {
+    background-color: white;
+    color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
+.btn-yellow {
+    background-color: var(--yellow);
+    color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
+.btn-green {
+    background-color: var(--dark-green);
+    color: white;
+    border-color: var(--dark-green);
+}
+
+.btn-green:hover {
+    background-color: var(--yellow);
+    color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
 /* MEDIA QUERIES */
 
 /* extra small devices */
