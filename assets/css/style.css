@@ -10,12 +10,14 @@
     --v-light-grey: #f8f9fa;
     --light-grey: #e9e6e3;
     --dark-grey: #777470;
+    --darkest-grey: #2c2b2a;
     --heading-font: 'Rufina', serif;
     --main-font: 'Source Sans Pro', sans-serif;
 }
 
 body {
     font-family: var(--main-font);
+    color: var(--darkest-grey);
 }
 
 h1, h2, h3, h4 {
@@ -32,6 +34,11 @@ h1 {
 
 .tagline {
     font-size: 21px;
+}
+
+.section-heading {
+    margin-bottom: 2rem;
+    font-size: 30px;
 }
 
 /* NAVIGATION */
@@ -63,6 +70,19 @@ h1 {
     background-color: var(--dark-green-overlay);
 }
 
+/* RESULTS ICONS */
+
+#results-icons {
+    padding-top: 40px;
+}
+
+.results-icon {
+    color: var(--mid-green);
+    opacity: 80%;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
 /* MEDIA QUERIES */
 
 /* small devices */
@@ -72,5 +92,8 @@ h1 {
     }
     .tagline {
         font-size: 24px;
+    }
+    .section-heading {
+        font-size: 40px;
     }
 }
