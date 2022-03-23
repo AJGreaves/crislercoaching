@@ -75,9 +75,63 @@ h1 {
     background-color: var(--dark-green-overlay);
 }
 
+#cara-pic-wrapper {
+    height: 100%;
+    min-height: 350px;
+}
+
+#cara-pic {
+    height: 100%;
+    background-image: url("../img/cara1.jpg");
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+/* CARDS */
+
+#services .card {
+    max-width: 18rem;
+    margin: 1rem auto;
+}
+
+/* CTA BOXES */
+
+.img-box {
+    height: 150px;
+    max-width: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    margin: 1rem;
+}
+
+.img-box-overlay {
+    background-color: var(--dark-green-overlay);
+    height: 100%;
+}
+
+#teams-card {
+    background-image: url("../img/service3.jpg");
+}
+
+#individuals-card {
+    background-image: url("../img/service2.jpg");
+}
+
+#contact-card {
+    background-image: url("../img/service1.jpg");
+}
+
+.img-box a {
+    color: white;
+    text-decoration: none;
+}
+
 /* RESULTS ICONS */
 
-#results-icons {
+#results-icons,
+#services,
+#calls-to-action {
     padding: 40px 0;
 }
 
@@ -88,12 +142,17 @@ h1 {
     margin: 10px 0;
 }
 
-/* TESTIMONIALS SECTION HOME PG */
+/* SECTIONS */
 
-#testimonials-section {
+.green-section {
     background-color: var(--mid-green);
     padding: 40px 0;
     color: white;
+}
+
+/* TESTIMONIALS SECTION HOME PG */
+
+#testimonials-section {
     height: 480px;
 }
 
