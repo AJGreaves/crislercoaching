@@ -225,7 +225,10 @@ hr {
 
 #footer .fa-brands {
     font-size: 3rem;
-    padding-left: 1rem;
+}
+
+#between-icons {
+    padding: 10px;
 }
 
 /* BUTTONS */
