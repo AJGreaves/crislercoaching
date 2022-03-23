@@ -32,6 +32,13 @@ h1 {
     font-size: 40px;
 }
 
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
 .tagline {
     font-size: 21px;
 }
@@ -125,7 +132,22 @@ h1 {
 .img-box a {
     color: white;
     text-decoration: none;
+    transition: .2s ease-in-out .2s;
 }
+
+.img-box a:hover {
+    color: var(--yellow);
+}
+
+#calls-to-action hr {
+    border-top: 2px solid var(--dark-green);
+}
+
+hr {
+    opacity: .8;
+    margin-top: 2.5rem
+}
+
 
 /* RESULTS ICONS */
 
@@ -141,7 +163,8 @@ h1 {
 #results-icons,
 #services,
 #calls-to-action,
-#footer {
+#footer, 
+#newsletter-signup {
     padding: 40px 0;
 }
 
@@ -171,6 +194,11 @@ h1 {
 
 /* FOOTER */
 
+#logos img {
+    height: 150px;
+    margin: 2rem;
+}
+
 #footer {
     background-color: var(--dark-green);
     color: white;
@@ -193,6 +221,11 @@ h1 {
 
 #footer a:hover {
     color: var(--yellow);
+}
+
+#footer .fa-brands {
+    font-size: 3rem;
+    padding-left: 1rem;
 }
 
 /* BUTTONS */
