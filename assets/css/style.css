@@ -1,6 +1,6 @@
 /* FONTS & COLORS */
 
-@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rufina:wght@700&family=Source+Sans+Pro&display=swap');
 
 :root {
     --dark-green: #4a4c02;
@@ -12,12 +12,21 @@
     --dark-grey: #777470;
     --darkest-grey: #2c2b2a;
     --heading-font: 'Rufina', serif;
-    --main-font: 'Source Sans Pro', sans-serif;
+    --main-font: 'Source sans pro', sans-serif;
+    --logo-font: 'Dosis', serif;
 }
 
 body {
     font-family: var(--main-font);
     color: var(--darkest-grey);
+    font-size: 110%;
+    letter-spacing: .5px;
+}
+
+.logo-font {
+    font-family: var(--logo-font);
+    font-weight: bold;
+    
 }
 
 h1, h2, h3, h4 {
@@ -60,7 +69,6 @@ h5 {
 }
 
 #cc .navbar-brand {
-    font-family: var(--heading-font);
     color: var(--mid-green);
     font-size: 19px;
 }
