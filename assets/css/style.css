@@ -91,38 +91,43 @@ h5 {
 }
 
 #hero-img-contact {
-    background-image: url('../../assets/img/ferns1.jpg');
-    background-position: 100% 70%;
+    background-image: url('../../assets/img/ferns3.jpg');
+    background-position: 50% 50%;
 }
 
 #hero-img-testimonials {
-    background-image: url('../../assets/img/ferns1.jpg');
-    background-position: 100% 70%;
+    background-image: url('../../assets/img/ferns4.jpg');
+    background-position: 50% 50%;
 }
 
 #hero-img-resources-individuals-couples {
-    background-image: url('../../assets/img/ferns1.jpg');
-    background-position: 100% 70%;
+    background-image: url('../../assets/img/ferns6.jpg');
+    background-position: 50% 20%;
 }
 
 #hero-img-resources-teams {
-    background-image: url('../../assets/img/ferns1.jpg');
-    background-position: 100% 70%;
+    background-image: url('../../assets/img/ferns2.jpg');
+    background-position: 50% 50%;
 }
 
 #hero-img-services-individuals-couples {
-    background-image: url('../../assets/img/ferns1.jpg');
-    background-position: 100% 70%;
+    background-image: url('../../assets/img/ferns5.jpg');
+    background-position: 50% 65%;
+}
+
+#hero-img-services-teams {
+    background-image: url('../../assets/img/ferns7.jpg');
+    background-position: 100% 80%;
 }
 
 #hero-img-privacy-policy {
-    background-image: url('../../assets/img/ferns1.jpg');
-    background-position: 100% 70%;
+    background-image: url('../../assets/img/ferns3.jpg');
+    background-position: 50% 50%;
 }
 
 #hero-img-terms {
-    background-image: url('../../assets/img/ferns1.jpg');
-    background-position: 100% 70%;
+    background-image: url('../../assets/img/ferns4.jpg');
+    background-position: 50% 50%;
 }
 
 
