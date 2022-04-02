@@ -90,6 +90,42 @@ h5 {
     background-position: 50% 40%;
 }
 
+#hero-img-contact {
+    background-image: url('../../assets/img/ferns1.jpg');
+    background-position: 100% 70%;
+}
+
+#hero-img-testimonials {
+    background-image: url('../../assets/img/ferns1.jpg');
+    background-position: 100% 70%;
+}
+
+#hero-img-resources-individuals-couples {
+    background-image: url('../../assets/img/ferns1.jpg');
+    background-position: 100% 70%;
+}
+
+#hero-img-resources-teams {
+    background-image: url('../../assets/img/ferns1.jpg');
+    background-position: 100% 70%;
+}
+
+#hero-img-services-individuals-couples {
+    background-image: url('../../assets/img/ferns1.jpg');
+    background-position: 100% 70%;
+}
+
+#hero-img-privacy-policy {
+    background-image: url('../../assets/img/ferns1.jpg');
+    background-position: 100% 70%;
+}
+
+#hero-img-terms {
+    background-image: url('../../assets/img/ferns1.jpg');
+    background-position: 100% 70%;
+}
+
+
 .overlay-dark {
     height: 100%;
     background-color: var(--dark-green-overlay);
