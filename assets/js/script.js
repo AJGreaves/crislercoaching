@@ -6,3 +6,9 @@ function main() {
 }
 
 main();
+
+let homeCarousel = document.querySelector('#homeCarousel')
+let carousel = new bootstrap.Carousel(homeCarousel, {
+    interval: 15000,
+    wrap: false
+})
