@@ -155,6 +155,12 @@ h5 {
     margin: 1rem auto;
 }
 
+#services-individuals .card {
+    color: var(--darkest-grey);
+    max-width: 26rem;
+    margin: 1rem auto;
+}
+
 /* CTA BOXES */
 
 .img-box {
@@ -355,7 +361,8 @@ hr {
         height: 300px;
     }
 
-    #services .card-body {
+    #services .card-body, 
+    #services-individuals .card-body {
         min-height: 244px;
     }
 }
@@ -367,7 +374,8 @@ hr {
         height: 250px;
     }
 
-    #services .card-body {
+    #services .card-body, 
+    #services-individuals .card-body {
         min-height: 293px;
     }
 }
@@ -382,6 +390,10 @@ hr {
     #services .card-body {
         min-height: 218px;
     }
+
+    #services-individuals .card-body {
+        min-height: 224px;
+    }
 }
 
 /* xl devices */
@@ -389,6 +401,10 @@ hr {
 
     #testimonials-section {
         height: 250px;
+    }
+
+    #services-individuals .card-body {
+        min-height: 220px;
     }
 }
 
