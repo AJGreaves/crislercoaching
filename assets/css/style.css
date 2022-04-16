@@ -151,7 +151,7 @@ h5 {
 /* CARDS */
 
 #services .card {
-    max-width: 18rem;
+    max-width: 26rem;
     margin: 1rem auto;
 }
 
@@ -354,6 +354,10 @@ hr {
     #testimonials-section {
         height: 300px;
     }
+
+    #services .card-body {
+        min-height: 244px;
+    }
 }
 
 /* large devices */
@@ -362,6 +366,10 @@ hr {
     #testimonials-section {
         height: 250px;
     }
+
+    #services .card-body {
+        min-height: 293px;
+    }
 }
 
 /* xl devices */
@@ -369,6 +377,10 @@ hr {
 
     #testimonials-section {
         height: 300px;
+    }
+
+    #services .card-body {
+        min-height: 218px;
     }
 }
 
