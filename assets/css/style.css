@@ -231,7 +231,7 @@ hr {
 /* TESTIMONIALS SECTION HOME PG */
 
 #testimonials-section {
-    height: 480px;
+    height: 530px;
 }
 
 .blockquote > p {
@@ -316,9 +316,9 @@ hr {
 /* extra small devices */
 @media screen and (min-width: 420px) {
 
-    /* #testimonials-section {
-        height: 300px;
-    } */
+    #testimonials-section {
+        height: 500px;
+    }
     
     .blockquote > p {
         font-size: 1.1rem;
@@ -340,7 +340,7 @@ hr {
     }
 
     #testimonials-section {
-        height: 300px;
+        height: 350px;
     }
     
     .blockquote > p {
@@ -350,6 +350,30 @@ hr {
 
 /* medium devices */
 @media screen and (min-width: 768px) {
+
+    #testimonials-section {
+        height: 300px;
+    }
+}
+
+/* large devices */
+@media screen and (min-width: 992px) {
+
+    #testimonials-section {
+        height: 250px;
+    }
+}
+
+/* xl devices */
+@media screen and (min-width: 1200px) {
+
+    #testimonials-section {
+        height: 300px;
+    }
+}
+
+/* xl devices */
+@media screen and (min-width: 1400px) {
 
     #testimonials-section {
         height: 250px;
