@@ -222,6 +222,8 @@ hr {
 
 #results-icons,
 #services,
+#services-individuals,
+#about-section,
 #calls-to-action,
 #footer, 
 #newsletter-signup {
@@ -254,9 +256,13 @@ hr {
 
 /* FOOTER */
 
+#logos {
+    margin: 1rem 0;
+}
+
 #logos img {
-    height: 150px;
-    margin: 2rem;
+    height: 110px;
+    margin: 10px 2rem;
 }
 
 #footer {
