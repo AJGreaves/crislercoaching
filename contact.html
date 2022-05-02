@@ -21,6 +21,7 @@
 
     <!-- Custom CSS-->
     <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -45,7 +46,8 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarServices">
                             <li><a class="dropdown-item" href="services-teams.html">Teams</a></li>
-                            <li><a class="dropdown-item" href="services-individuals-and-couples.html">Individuals & couples</a></li>
+                            <li><a class="dropdown-item" href="services-individuals-and-couples.html">Individuals &
+                                    couples</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -60,8 +62,10 @@
                             Inspiration
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarInspiration">
-                            <li><a class="dropdown-item" href="resources-teams.html">Resources & articles for teams</a></li>
-                            <li><a class="dropdown-item" href="resources-individuals-couples.html">Resources & articles for individuals & couples</a>
+                            <li><a class="dropdown-item" href="resources-teams.html">Resources & articles for teams</a>
+                            </li>
+                            <li><a class="dropdown-item" href="resources-individuals-couples.html">Resources & articles
+                                    for individuals & couples</a>
                             </li>
                         </ul>
                     </li>
@@ -82,8 +86,47 @@
         </div>
     </header>
 
-    <!-- first section here-->
-    
+    <!--
+        Form sends data to email js. name attribute values must match *exactly* the
+        template variable names in curly brackets in the email js template 
+        https://dashboard.emailjs.com/admin/templates/4sdxx4l
+        
+        for example: 
+        in HTML
+        name="from_name"
+        in emailjs template
+        {{from_name}}
+    -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 col-lx-4">
+                    <form id="contact-form">
+                        <input type="hidden" name="contact_number">
+                        <div class="row">
+                            <div class="col-12 col-xl-6">
+                                <div class="form-group mt-3 mt-xl-5">
+                                    <label for="from_name">Name</label>
+                                    <input type="email" class="form-control mt-2" id="from_name" name="from_name">
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-6">
+                                <div class="form-group mt-3 mt-xl-5">
+                                    <label for="reply_to">Email address</label>
+                                    <input type="email" class="form-control mt-2" id="reply_to" name="reply_to">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="message">Message</label>
+                            <textarea class="form-control mt-2" id="message" name="message" rows="7"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-green btn-lg my-4">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- footer -->
     <section id="newsletter-signup">
@@ -124,8 +167,10 @@
                 </div>
                 <div class="col-12 col-md-4 text-center text-md-end">
                     <h5>Social</h5>
-                    <a href="https://www.linkedin.com/in/caracrislercoaching" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin"></i></a><span id="between-icons"></span>
-                    <a href="https://www.facebook.com/pages/Crisler-Coaching-Consulting/226635767353316" target="_blank" rel="nofollow"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/in/caracrislercoaching" target="_blank" rel="nofollow"><i
+                            class="fa-brands fa-linkedin"></i></a><span id="between-icons"></span>
+                    <a href="https://www.facebook.com/pages/Crisler-Coaching-Consulting/226635767353316" target="_blank"
+                        rel="nofollow"><i class="fa-brands fa-facebook-square"></i></a>
                 </div>
                 <div class="col-12 text-center text-md-end mt-3">
                     ©<span id="date"></span> Crisler Coaching & Consulting
@@ -142,6 +187,12 @@
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
     <!-- custom script -->
     <script src="assets/js/script.js"></script>
+
+    <!-- emailjs scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <!-- Custom script for emailjs -->
+    <script src="assets/js/email.js"></script>
 </body>
 
 </html>
