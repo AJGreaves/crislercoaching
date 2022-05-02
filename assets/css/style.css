@@ -349,6 +349,13 @@ hr {
     border-color: var(--dark-green);
 }
 
+#mc-embedded-subscribe {
+    margin: 0;
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+}
+
 /* MEDIA QUERIES */
 
 /* extra small devices */
