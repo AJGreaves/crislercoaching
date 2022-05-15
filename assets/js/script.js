@@ -23,3 +23,11 @@ if (document.querySelector('#testimonialsCarousel')) {
         wrap: false
     })
 }
+
+if (document.querySelector('#teamsTestimonialsCarousel')) {
+    let teamsTestimonialsCarousel = document.querySelector('#teamsTestimonialsCarousel');
+    let carousel = new bootstrap.Carousel(teamsTestimonialsCarousel, {
+        interval: 15000,
+        wrap: false
+    })
+}

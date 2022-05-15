@@ -405,6 +405,10 @@ hr {
     #testimonialsCarousel {
         height: 550px;
     }
+
+    #teamsTestimonialsCarousel {
+        height: 660px;
+    }
 }
 
 /* small devices */
@@ -432,6 +436,10 @@ hr {
     #testimonialsCarousel {
         height: 365px;
     }
+
+    #teamsTestimonialsCarousel {
+        height: 250px;
+    }
 }
 
 /* medium devices */
@@ -449,6 +457,10 @@ hr {
     #testimonialsCarousel {
         height: 225px;
     }
+
+    #teamsTestimonialsCarousel {
+        height: 300px;
+    }
 }
 
 /* large devices */
@@ -465,6 +477,10 @@ hr {
 
     #testimonialsCarousel {
         height: 180px;
+    }
+
+    #teamsTestimonialsCarousel {
+        height: 250px;
     }
 }
 
@@ -486,6 +502,11 @@ hr {
     #testimonialsCarousel {
         height: 270px;
     }
+
+    #teamsTestimonialsCarousel {
+        height: 310px;
+    }
+
 }
 
 /* xxl devices */
@@ -501,6 +522,10 @@ hr {
 
     #testimonialsCarousel {
         height: 200px;
+    }
+
+    #teamsTestimonialsCarousel {
+        height: 260px;
     }
 }
 
