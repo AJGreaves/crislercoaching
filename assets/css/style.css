@@ -260,9 +260,12 @@ hr {
 #calls-to-action,
 #footer, 
 #newsletter-signup,
-.about-pg-section {
+.about-pg-section, 
+.services-pg-section {
     padding: 40px 0;
 }
+
+
 
 .green-section {
     background-color: var(--mid-green);
