@@ -98,6 +98,8 @@ a {
     color: white;
 }
 
+
+
 a:hover {
     color: var(--darkest-grey);
 }
@@ -366,13 +368,15 @@ hr {
     border-color: var(--dark-green);
 }
 
-.btn-green {
+.btn-green,
+#mc-embedded-subscribe.button {
     background-color: var(--dark-green);
     color: white;
     border-color: var(--dark-green);
 }
 
-.btn-green:hover {
+.btn-green:hover,
+#mc-embedded-subscribe.button:hover {
     background-color: var(--yellow);
     color: var(--dark-green);
     border-color: var(--dark-green);
