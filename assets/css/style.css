@@ -17,6 +17,7 @@ using https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website as a
     --dark-green-overlay: rgba(74, 76, 2, 0.4);
     --mid-green: #78820c;
     --yellow: #d9ac0c;
+    --bright-yellow: #fdcf28;
     --v-light-grey: #f8f9fa;
     --light-grey: #e9e6e3;
     --dark-grey: #777470;
@@ -85,6 +86,16 @@ h5 {
 
 a {
     color: var(--dark-green);
+    transition: .2s ease-in-out .2s;
+}
+
+.green-section a {
+    color: var(--bright-yellow);
+    transition: .2s ease-in-out .2s;
+}
+
+a:hover {
+    color: var(--darkest-grey);
 }
 
 /* IMAGES */
