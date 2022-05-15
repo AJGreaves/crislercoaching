@@ -7,8 +7,19 @@ function main() {
 
 main();
 
-let homeCarousel = document.querySelector('#homeCarousel')
-let carousel = new bootstrap.Carousel(homeCarousel, {
-    interval: 15000,
-    wrap: false
-})
+if (document.querySelector('#homeCarousel')) {
+    let homeCarousel = document.querySelector('#homeCarousel');
+    let carousel = new bootstrap.Carousel(homeCarousel, {
+        interval: 15000,
+        wrap: false
+    })
+}
+
+
+if (document.querySelector('#testimonialsCarousel')) {
+    let testimonialsCarousel = document.querySelector('#testimonialsCarousel');
+    let carousel = new bootstrap.Carousel(testimonialsCarousel, {
+        interval: 15000,
+        wrap: false
+    })
+}

@@ -280,8 +280,6 @@ hr {
     padding: 40px 0;
 }
 
-
-
 .green-section {
     background-color: var(--mid-green);
     padding: 40px 0;
@@ -304,6 +302,11 @@ hr {
 
 .section-footer {
     background-color: var(--mid-green);
+}
+
+.carousel-control-next.dark,
+.carousel-control-prev.dark /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
 
 /* FOOTER */
@@ -394,6 +397,14 @@ hr {
     .blockquote > p {
         font-size: 1.1rem;
     }
+
+    #testimonialsCarousel {
+        height: 200px;
+    }
+
+    #testimonialsCarousel {
+        height: 550px;
+    }
 }
 
 /* small devices */
@@ -417,6 +428,10 @@ hr {
     .blockquote > p {
         font-size: 1rem;
     }
+
+    #testimonialsCarousel {
+        height: 365px;
+    }
 }
 
 /* medium devices */
@@ -430,6 +445,10 @@ hr {
     #services-individuals .card-body {
         min-height: 244px;
     }
+
+    #testimonialsCarousel {
+        height: 225px;
+    }
 }
 
 /* large devices */
@@ -442,6 +461,10 @@ hr {
     #services .card-body, 
     #services-individuals .card-body {
         min-height: 293px;
+    }
+
+    #testimonialsCarousel {
+        height: 180px;
     }
 }
 
@@ -459,9 +482,13 @@ hr {
     #services-individuals .card-body {
         min-height: 224px;
     }
+
+    #testimonialsCarousel {
+        height: 270px;
+    }
 }
 
-/* xl devices */
+/* xxl devices */
 @media screen and (min-width: 1400px) {
 
     #testimonials-section {
@@ -471,8 +498,13 @@ hr {
     #services-individuals .card-body {
         min-height: 220px;
     }
+
+    #testimonialsCarousel {
+        height: 200px;
+    }
 }
 
+/* For debugging */
 /* * {
     background: #000 !important;
     color: #0f0 !important;
