@@ -94,6 +94,10 @@ a {
     transition: .2s ease-in-out .2s;
 }
 
+.green-section a.btn-green {
+    color: white;
+}
+
 a:hover {
     color: var(--darkest-grey);
 }
