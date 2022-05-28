@@ -37,10 +37,12 @@ body {
 .logo-font {
     font-family: var(--logo-font);
     font-weight: bold;
-    
+
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
     font-family: var(--heading-font);
 }
 
@@ -165,7 +167,6 @@ a:hover {
     background-position: 50% 50%;
 }
 
-
 .overlay-dark {
     height: 100%;
     background-color: var(--dark-green-overlay);
@@ -196,6 +197,25 @@ a:hover {
     background-image: url("../img/cara-about-2.png");
     background-size: cover;
     background-position: 0% 50%;
+}
+
+.media-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.video-wrapper {
+    padding: 56.25% 0 0 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* CARDS */
@@ -275,9 +295,9 @@ hr {
 #services-individuals,
 #about-section,
 #calls-to-action,
-#footer, 
+#footer,
 #newsletter-signup,
-.about-pg-section, 
+.about-pg-section,
 .services-pg-section {
     padding: 40px 0;
 }
@@ -294,7 +314,7 @@ hr {
     height: 530px;
 }
 
-.blockquote > p {
+.blockquote>p {
     font-size: 1rem;
 }
 
@@ -307,7 +327,10 @@ hr {
 }
 
 .carousel-control-next.dark,
-.carousel-control-prev.dark /*, .carousel-indicators */ {
+.carousel-control-prev.dark
+
+/*, .carousel-indicators */
+    {
     filter: invert(100%);
 }
 
@@ -406,8 +429,8 @@ hr {
     #testimonials-section {
         height: 500px;
     }
-    
-    .blockquote > p {
+
+    .blockquote>p {
         font-size: 1.1rem;
     }
 
@@ -429,7 +452,7 @@ hr {
     h1 {
         font-size: 55px;
     }
-    
+
     .tagline {
         font-size: 24px;
     }
@@ -441,8 +464,8 @@ hr {
     #testimonials-section {
         height: 350px;
     }
-    
-    .blockquote > p {
+
+    .blockquote>p {
         font-size: 1rem;
     }
 
@@ -462,7 +485,7 @@ hr {
         height: 300px;
     }
 
-    #services .card-body, 
+    #services .card-body,
     #services-individuals .card-body {
         min-height: 244px;
     }
@@ -483,7 +506,7 @@ hr {
         height: 250px;
     }
 
-    #services .card-body, 
+    #services .card-body,
     #services-individuals .card-body {
         min-height: 293px;
     }
