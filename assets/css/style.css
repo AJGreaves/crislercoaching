@@ -118,52 +118,52 @@ a:hover {
 }
 
 #hero-img-home {
-    background-image: url('../../assets/img/ferns1.jpg');
+    background-image: url('../../assets/img/ferns1.webp');
     background-position: 100% 70%;
 }
 
 #hero-img-about {
-    background-image: url('../../assets/img/cara-family-cropped.jpg');
+    background-image: url('../../assets/img/cara-family-cropped.webp');
     background-position: 50% 40%;
 }
 
 #hero-img-contact {
-    background-image: url('../../assets/img/ferns3.jpg');
+    background-image: url('../../assets/img/ferns3.webp');
     background-position: 50% 50%;
 }
 
 #hero-img-testimonials {
-    background-image: url('../../assets/img/ferns4.jpg');
+    background-image: url('../../assets/img/ferns4.webp');
     background-position: 50% 50%;
 }
 
 #hero-img-resources-individuals-couples {
-    background-image: url('../../assets/img/ferns6.jpg');
+    background-image: url('../../assets/img/ferns6.webp');
     background-position: 50% 20%;
 }
 
 #hero-img-resources-teams {
-    background-image: url('../../assets/img/ferns2.jpg');
+    background-image: url('../../assets/img/ferns2.webp');
     background-position: 50% 50%;
 }
 
 #hero-img-services-individuals-couples {
-    background-image: url('../../assets/img/ferns5.jpg');
+    background-image: url('../../assets/img/ferns5.webp');
     background-position: 50% 65%;
 }
 
 #hero-img-services-teams {
-    background-image: url('../../assets/img/ferns7.jpg');
+    background-image: url('../../assets/img/ferns7.webp');
     background-position: 100% 80%;
 }
 
 #hero-img-privacy-policy {
-    background-image: url('../../assets/img/ferns3.jpg');
+    background-image: url('../../assets/img/ferns3.webp');
     background-position: 50% 50%;
 }
 
 #hero-img-terms {
-    background-image: url('../../assets/img/ferns4.jpg');
+    background-image: url('../../assets/img/ferns4.webp');
     background-position: 50% 50%;
 }
 
@@ -179,14 +179,14 @@ a:hover {
 
 #cara-pic {
     height: 100%;
-    background-image: url("../img/cara1.jpg");
+    background-image: url("../img/cara1.webp");
     background-size: cover;
     background-position: 50% 10%;
 }
 
 #cara-about-pic-1 {
     height: 100%;
-    background-image: url("../img/cara-about-1.png");
+    background-image: url("../img/cara-about-1.webp");
     background-size: cover;
     background-position: 0% 50%;
     transform: scaleX(-1);
@@ -194,7 +194,7 @@ a:hover {
 
 #cara-about-pic-2 {
     height: 100%;
-    background-image: url("../img/cara-about-2.png");
+    background-image: url("../img/cara-about-2.webp");
     background-size: cover;
     background-position: 0% 50%;
 }
@@ -250,15 +250,15 @@ a:hover {
 }
 
 #teams-card {
-    background-image: url("../img/service3.jpg");
+    background-image: url("../img/service3.webp");
 }
 
 #individuals-card {
-    background-image: url("../img/service2.jpg");
+    background-image: url("../img/service2.webp");
 }
 
 #contact-card {
-    background-image: url("../img/service1.jpg");
+    background-image: url("../img/service1.webp");
 }
 
 .img-box a {
