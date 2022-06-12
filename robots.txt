@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /resources-individuals-couples.html
 Disallow: /resources-teams.html
-Sitemap" https://http://crislercoaching.com/sitemap.xml
+Sitemap" https://www.crislercoaching.com/sitemap.xml
