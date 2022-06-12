@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 /* FONTS & COLORS */
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rufina:wght@700&family=Source+Sans+Pro&display=swap');
@@ -88,11 +95,15 @@ h5 {
 
 a {
     color: var(--dark-green);
+    -webkit-transition: .2s ease-in-out .2s;
+    -o-transition: .2s ease-in-out .2s;
     transition: .2s ease-in-out .2s;
 }
 
 .green-section a {
     color: var(--bright-yellow);
+    -webkit-transition: .2s ease-in-out .2s;
+    -o-transition: .2s ease-in-out .2s;
     transition: .2s ease-in-out .2s;
 }
 
@@ -189,6 +200,8 @@ a:hover {
     background-image: url("../img/cara-about-1.webp");
     background-size: cover;
     background-position: 0% 50%;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 
@@ -264,6 +277,8 @@ a:hover {
 .img-box a {
     color: white;
     text-decoration: none;
+    -webkit-transition: .2s ease-in-out .2s;
+    -o-transition: .2s ease-in-out .2s;
     transition: .2s ease-in-out .2s;
 }
 
@@ -333,6 +348,7 @@ hr {
 
 /*, .carousel-indicators */
     {
+    -webkit-filter: invert(100%);
     filter: invert(100%);
 }
 
@@ -364,6 +380,8 @@ hr {
 #footer a {
     color: white;
     text-decoration: none;
+    -webkit-transition: .2s ease-in-out .2s;
+    -o-transition: .2s ease-in-out .2s;
     transition: .2s ease-in-out .2s;
 }
 
@@ -566,10 +584,3 @@ hr {
         height: 260px;
     }
 }
-
-/* For debugging */
-/* * {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  } */
