@@ -311,7 +311,6 @@ hr {
 #about-section,
 #calls-to-action,
 #footer,
-#newsletter-signup,
 .about-pg-section,
 .services-pg-section {
     padding: 40px 0;
@@ -433,15 +432,6 @@ hr {
     width: 100px;
     padding: 5px;
     font-size: 16px;
-}
-
-/* MAILCHIMP */
-
-#mc_embed_signup {
-    background: #fff;
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    max-width: 600px;
 }
 
 /* MEDIA QUERIES */
