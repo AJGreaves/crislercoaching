@@ -111,8 +111,6 @@ a {
     color: white;
 }
 
-
-
 a:hover {
     color: var(--darkest-grey);
 }
@@ -344,12 +342,17 @@ hr {
 }
 
 .carousel-control-next.dark,
-.carousel-control-prev.dark
-
-/*, .carousel-indicators */
-    {
+.carousel-control-prev.dark {
     -webkit-filter: invert(100%);
     filter: invert(100%);
+}
+
+/* MODAL */
+
+#more-info-modal {
+    max-width: 900px;
+    color: var(--dark-green);
+    text-align: left;
 }
 
 /* FOOTER */
