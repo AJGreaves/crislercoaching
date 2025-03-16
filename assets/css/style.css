@@ -423,6 +423,12 @@ hr {
     border-color: var(--dark-green);
 }
 
+.btn-yellow:hover {
+    background-color: var(--bright-yellow);
+    color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
 .btn-green,
 #mc-embedded-subscribe.button {
     background-color: var(--dark-green);
