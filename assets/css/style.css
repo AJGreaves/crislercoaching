@@ -303,7 +303,7 @@ hr {
 /* RESULTS ICONS */
 
 .results-icon {
-    color: var(--mid-green);
+    color: var(--bright-yellow);
     opacity: 80%;
     font-size: 45px;
     margin: 10px 0;
@@ -329,6 +329,10 @@ hr {
 }
 
 /* TESTIMONIALS SECTION HOME PG */
+
+#testimonials-section {
+    margin-top: 2rem;
+}
 
 .blockquote>p {
     font-size: 1rem;
