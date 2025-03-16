@@ -21,7 +21,7 @@ using https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website as a
 
 :root {
     --dark-green: #4a4c02;
-    --dark-green-overlay: rgba(74, 76, 2, 0.4);
+    --dark-green-overlay: rgba(51, 53, 2, 0.4);
     --mid-green: #5a6109;
     --yellow: #d9ac0c;
     --bright-yellow: #ffe175;
@@ -59,6 +59,12 @@ h1 {
 
 h3 {
     font-family: var(--logo-font);
+}
+
+#intro h3 {
+    font-family: var(--heading-font);
+    margin-top: 2rem;
+    font-size: 2.2rem;
 }
 
 h5 {
@@ -122,7 +128,7 @@ a:hover {
 
 .hero-image {
     color: white;
-    height: 400px;
+    height: 300px;
     background-size: cover;
 }
 
@@ -299,13 +305,13 @@ hr {
 .results-icon {
     color: var(--mid-green);
     opacity: 80%;
-    font-size: 50px;
+    font-size: 45px;
     margin: 10px 0;
 }
 
 /* SECTIONS */
 
-#results-icons,
+#intro,
 #services,
 #services-individuals,
 #about-section,
