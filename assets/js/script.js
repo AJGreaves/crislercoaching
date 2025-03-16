@@ -15,15 +15,6 @@ if (document.querySelector('#homeCarousel')) {
     })
 }
 
-
-if (document.querySelector('#testimonialsCarousel')) {
-    let testimonialsCarousel = document.querySelector('#testimonialsCarousel');
-    let carousel = new bootstrap.Carousel(testimonialsCarousel, {
-        interval: 15000,
-        wrap: false
-    })
-}
-
 if (document.querySelector('#teamsTestimonialsCarousel')) {
     let teamsTestimonialsCarousel = document.querySelector('#teamsTestimonialsCarousel');
     let carousel = new bootstrap.Carousel(teamsTestimonialsCarousel, {

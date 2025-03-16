@@ -330,12 +330,12 @@ hr {
 
 /* TESTIMONIALS SECTION HOME PG */
 
-#testimonials-section {
-    height: 530px;
-}
-
 .blockquote>p {
     font-size: 1rem;
+}
+
+.green-section .blockquote-footer {
+    color: var(--yellow);
 }
 
 .carousel.slide {
@@ -446,19 +446,11 @@ hr {
 @media screen and (min-width: 420px) {
 
     #testimonials-section {
-        height: 500px;
+        height: 480px;
     }
 
     .blockquote>p {
         font-size: 1.1rem;
-    }
-
-    #testimonialsCarousel {
-        height: 200px;
-    }
-
-    #testimonialsCarousel {
-        height: 550px;
     }
 
     #teamsTestimonialsCarousel {
@@ -481,15 +473,11 @@ hr {
     }
 
     #testimonials-section {
-        height: 350px;
+        height: 300px;
     }
 
     .blockquote>p {
         font-size: 1rem;
-    }
-
-    #testimonialsCarousel {
-        height: 365px;
     }
 
     #teamsTestimonialsCarousel {
@@ -501,16 +489,12 @@ hr {
 @media screen and (min-width: 768px) {
 
     #testimonials-section {
-        height: 300px;
+        height: 250px;
     }
 
     #services .card-body,
     #services-individuals .card-body {
         min-height: 244px;
-    }
-
-    #testimonialsCarousel {
-        height: 225px;
     }
 
     #teamsTestimonialsCarousel {
@@ -522,16 +506,12 @@ hr {
 @media screen and (min-width: 992px) {
 
     #testimonials-section {
-        height: 250px;
+        height: 230px;
     }
 
     #services .card-body,
     #services-individuals .card-body {
         min-height: 293px;
-    }
-
-    #testimonialsCarousel {
-        height: 180px;
     }
 
     #teamsTestimonialsCarousel {
@@ -543,7 +523,7 @@ hr {
 @media screen and (min-width: 1200px) {
 
     #testimonials-section {
-        height: 300px;
+        height: 275px;
     }
 
     #services .card-body {
@@ -552,10 +532,6 @@ hr {
 
     #services-individuals .card-body {
         min-height: 224px;
-    }
-
-    #testimonialsCarousel {
-        height: 270px;
     }
 
     #teamsTestimonialsCarousel {
@@ -573,10 +549,6 @@ hr {
 
     #services-individuals .card-body {
         min-height: 220px;
-    }
-
-    #testimonialsCarousel {
-        height: 200px;
     }
 
     #teamsTestimonialsCarousel {
