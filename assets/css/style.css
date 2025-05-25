@@ -504,7 +504,7 @@ hr {
 
     #services .card-body,
     #services-individuals .card-body {
-        min-height: 244px;
+        min-height: 180px;
     }
 
     #teamsTestimonialsCarousel {
@@ -521,7 +521,7 @@ hr {
 
     #services .card-body,
     #services-individuals .card-body {
-        min-height: 293px;
+        min-height: 220px;
     }
 
     #teamsTestimonialsCarousel {
@@ -541,7 +541,7 @@ hr {
     }
 
     #services-individuals .card-body {
-        min-height: 224px;
+        min-height: 180px;
     }
 
     #teamsTestimonialsCarousel {
@@ -558,7 +558,7 @@ hr {
     }
 
     #services-individuals .card-body {
-        min-height: 220px;
+        min-height: 150px;
     }
 
     #teamsTestimonialsCarousel {
