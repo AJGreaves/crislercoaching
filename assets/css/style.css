@@ -322,6 +322,11 @@ hr {
     padding: 40px 0;
 }
 
+.contact-pg-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .green-section {
     background-color: var(--mid-green);
     padding: 40px 0;
