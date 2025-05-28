@@ -380,6 +380,14 @@ hr {
     margin: 10px 2rem;
 }
 
+#logos .md-logo {
+    height: 90px;
+}
+
+#logos .sm-logo {
+    height: 80px;
+}
+
 #footer {
     background-color: var(--dark-green);
     color: white;
